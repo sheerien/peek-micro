@@ -1,8 +1,18 @@
 {
     "name": "micro/peek",
     "description": "php framework for web application",
+    "keywords": [
+        "framework", "php", "peek/micro"
+    ],
     "type": "library",
     "license": "MIT",
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/sheerien/peek-micro/issues",
+        "source": "https://github.com/sheerien/peek-micro",
+        "role": "Developer"
+    },
     "autoload": {
         "psr-4": {
             "Micro\\Peek\\": "src/core"
