@@ -1,0 +1,30 @@
+{
+    "name": "micro/peek",
+    "description": "php framework for web application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Micro\\Peek\\": "src/core"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Micro\\Peek\\Test": "tests/"
+        }
+    },
+    "authors": [{
+        "name": "sherien",
+        "email": "sherieenbassem@gmail.com"
+    }],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": "7.4.2|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    }
+}
