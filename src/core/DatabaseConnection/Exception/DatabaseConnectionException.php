@@ -4,8 +4,8 @@ namespace Micro\Peek\DatabaseConnection\Exception;
 
 class DatabaseConnectionException extends \PDOException
 {
-    protected $message;
-    protected $code;
+    public $message;
+    public $code;
     public function __construct($message = null, $code = 0)
     {
         $this->message = $message;
